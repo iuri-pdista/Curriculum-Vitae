@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iuri Corrêa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <style type="text/css">
+        :root{
+            font-size: 60%;
+            --color-details: #04D361;
+            --color-details-dark: #04BF58;
+            --color-header-text: #6e6e70;
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100vh;
+            display: flex;
+        }
+
+        body{
+            flex-flow: column;
+            padding-top: 3rem;
+            padding-left: 4rem;
+        }
+
+        hr{
+            border: none;
+            border-top: 10px solid var(--color-details-dark);            
+            width: 92vw;
+        }
+        
+        ul{
+            list-style: none;
+        }
+
+        a {
+            text-decoration: underline;
+            color: inherit;
+        }
+
+        a:hover{
+            text-decoration: none;
+            font-style: italic;
+        }
+
+        .header-name {
+            margin-top: 2.5rem;
+            margin-bottom: 1.1rem;
+            font: 700 3rem Archivo;
+            color: var(--color-header-text);
+        }
+
+        .topic-header{
+            font: 400 3.5rem Archivo;
+            color: var(--color-details);
+            margin-bottom: 1.1rem;
+        }
+
+        ul.topic-info-list{
+            font: 400 1.6rem Roboto;
+        }
+
+        .subtopic-info {
+            margin-left: 1rem;
+            color: var(--color-header-text)
+        }
+
+        .experience-info{
+            font: 400 1.8rem Roboto;
+            color: var(--color-header-text);
+            max-width: 699px;
+        }
+        
+        .fun-fact-list{
+            list-style: disc;
+        }
+
+        li.experience-info {
+            margin-left: 2rem;
+            color: var(--color-header-text)
+        }
+
+        li.experience-info:last-child{
+            margin-bottom: 2rem;
+            margin-top: 1rem
+        }
+
+        ul + h2{
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <hr>
+    <h1 class="header-name">
+        Iuri Corrêa de Salles
+    </h1>
+    <h2 class="topic-header">Contato</h4>
+    <ul class="topic-info-list">
+        <li> <b> Celular: </b>(19) 99963-1005 </li>
+        <li> <b> GitHub: </b> <a href="https://github.com/iuri-pdista"> iuri-pdista </a> </li>
+        <li> <b> E-mail para contato: </b> correaiuri86@gmail.com</li>
+    </ul>
+
+    <h2 class="topic-header">Competências</h2>
+    <ul class="topic-info-list">
+        <li> 
+            <b>Programação:</b>
+                <div class="subtopic-info">
+                    <ul>
+                        <li>Front-end: HTML, CSS, ReactJs, React-Native e WindowsForms<br> </li>
+                        <li>Back-end: C#, Rust, JavaScript(NodeJs, testes com Jest), C/C++, Python(Pandas, Keras, webAutomatization), Docker, ShellScript <br></li>
+                        <li>Outros: Linux, Pequena experiência na área de segurança, em tópicos como pentest, vulnHunting, criptografia e blue team</li>
+                    </ul>
+                </div>
+        </li>
+        <li>
+            <br><b>Idiomas</b>
+                <div class="subtopic-info">
+                    <ul>
+                        <li>Inglês: Avançado</li>
+                        <li>Espanhol: Avançado</li>
+                        <li>Francês: iniciante</li>
+                    </ul>
+                </div>
+        </li>
+        <li>
+            <br><b>Qualidades</b>
+                <div class="subtopic-info">
+                    <ul>
+                        <li>Inglês: Avançado</li>
+                        <li>Espanhol: Avançado</li>
+                        <li>Francês: iniciante</li>
+                    </ul>
+                </div>
+        </li>
+    </ul>
+    <h2 class="topic-header">Experiência</h2>
+        <p class="experience-info">Minha experiência é relativamente pequena, por isso estou à procura de um estágio, no entanto já desenvolvi alguns projetos pessoais, que podem ser encontrados em meu github</p>
+    <h2 class="topic-header">Escolaridade</h2>
+        <p class="experience-info">Atualmente curso o segundo ano do ensino médio no Colégio técnico da Unicamp em Limeira, além do ensino médio, faço curso técnico de informática no mesmo colégio</p>
+    <h2 class="topic-header">Curiosidades sobre mim: </h2>
+    <ul class="fun-fact-list">
+        <li class="experience-info">Eu consigo ler e me comunicar em Quenya, língua criado por J.R.R. Tolkien autor de livros como, Senhor Dos Anéis, O Hobbit entre muitos outros, dos quais sou enorme fã</li><br>
+        <li class="experience-info">Eu toco Baixo elétrico, Violino e Violão</li>
+        <li class="experience-info">Meus cantores favoritos sao Arnaldo Antunes e Julio Iglesias</li>
+    </ul>
+
+</body>
+</html>
